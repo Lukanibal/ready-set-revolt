@@ -25,6 +25,12 @@ switch(text)
         break;
     }
     
+    case "CODE":
+    {
+        objMenu.gitask := show_question_async("This will open github.com in you default browser, okay?");
+        break;
+    }
+    
     case "FONT":
     {
         if(draw_get_font() == fntOpenDyslexic)

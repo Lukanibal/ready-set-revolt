@@ -1,5 +1,4 @@
 /// @description setup the player
-followerCount := 0;
 followerMultiplier := 25;
 followers := [];
 detractors := 0;
@@ -9,11 +8,14 @@ createPerson := function(_num := 1)
 {
     //self.followerCount ++;
     
-    array_push(followers, instance_create_depth(random(room_width), random(room_height), objPlayer.z, objPerson));//new Follower(random(room_width), random(room_height), objPlayer.z,  self.multiplierMultiplier));
-    if(self.followerCount >= self.followerMultiplier)
-    {   
-        self.followerMultiplier += (25 * multiplierMultiplier);
-        multiplierMultiplier ++;
+    repeat(_num)
+    {
+        array_push(followers, instance_create_depth(random(room_width), random(room_height), objPlayer.z, objPerson));//new Follower(random(room_width), random(room_height), objPlayer.z,  self.multiplierMultiplier));
+        if(global.followerCount >= self.followerMultiplier)
+        {   
+            self.followerMultiplier += (25 * multiplierMultiplier);
+            multiplierMultiplier ++;
+        }
     }
 };
 

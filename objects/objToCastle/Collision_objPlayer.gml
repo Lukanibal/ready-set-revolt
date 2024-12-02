@@ -1,5 +1,5 @@
 /// @description Insert description here
-if(other.followerCount < 50)
+if(global.followerCount < 50)
 {
     instance_create_depth(x, y, -10000, objNotice, 
     {
@@ -12,6 +12,8 @@ else
         {
         text : "Sorry, I didn't know \r\n what to do with the game from here..." 
         });
+    
+    room_goto(rmCastle);
 }
 other.x := other.xprevious;
 other.y := other.yprevious;

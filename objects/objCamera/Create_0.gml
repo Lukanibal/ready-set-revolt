@@ -8,7 +8,7 @@ zFromBuffer := z;
 wait := false;
 
 lookDir := 90;
-lookPitch := 90;
+lookPitch := 45;
 
 ///turn all this junk on for 3D
 gpu_set_zwriteenable(true);
@@ -26,8 +26,6 @@ camera := camera_get_default();
 
 window_set_size(1366, 768);
 display_set_gui_size(1366, 768);
-
-mouse_ray := [];
 
 windowWidth := window_get_width();
 windowHeight := window_get_height();

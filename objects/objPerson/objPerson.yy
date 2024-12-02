@@ -43,5 +43,5 @@
     "name":"sprCollisionMask",
     "path":"sprites/sprCollisionMask/sprCollisionMask.yy",
   },
-  "visible":true,
+  "visible":false,
 }

@@ -18,7 +18,7 @@
   "option_operagx_mod_team_name":"",
   "option_operagx_mod_version":"1.0.0.0",
   "option_operagx_next_version":"1.0.0.2",
-  "option_operagx_publicShareUrl":"",
+  "option_operagx_publicShareUrl":"https://gx.games/games/7f75oe/ready-set-revolt-/",
   "option_operagx_scale":1,
   "option_operagx_team_id":"971b0825-2e8b-45d7-8751-03a826eaa97a",
   "option_operagx_team_name":"Spellweaver Games",

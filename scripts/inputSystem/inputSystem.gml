@@ -8,11 +8,6 @@ global.controls :=
     
 }
 
-
-
-
-
-
 function draw_text_drop(_x, _y, _text, _shadowWidth)
 {
     draw_text_color(_x+_shadowWidth, _y+_shadowWidth, _text, c_black, c_black, c_black, c_black, 0.8);

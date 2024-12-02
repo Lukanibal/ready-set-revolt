@@ -123,11 +123,11 @@ if(mouse_check_button_released(mb_right))
                     {
                         state = STATES.FOLLOW;
                         self.following := true;
-                        objPlayer.followerCount ++;
+                        global.followerCount ++;
                         objPlayer.charisma ++;
                     }
                     
-                    if(_roll < 1 && objPlayer.followerCount > 10)
+                    if(_roll < 1 && global.followerCount > 10)
                     {
                         state = STATES.AGAINST;
                         self.against := true;
@@ -139,7 +139,7 @@ if(mouse_check_button_released(mb_right))
                             state = STATES.FOLLOW;
                             self.against := false;
                             objPlayer.detractors --;
-                            objPlayer.followerCount ++;
+                            global.followerCount ++;
                             objPlayer.charisma ++;
                         }
                     }

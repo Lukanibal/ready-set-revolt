@@ -107,7 +107,7 @@ switch(state)
                     {
                         target.state := STATES.FOLLOW;
                         target.following := true;
-                        objPlayer.followerCount ++;
+                        global.followerCount ++;
                         acquireTarget();
                     }
                     else 

@@ -1,11 +1,11 @@
 {
   "$GMObject":"",
-  "%Name":"Object12",
+  "%Name":"objToCastle",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":{"name":"objPlayer","path":"objects/objPlayer/objPlayer.yy",},"eventNum":0,"eventType":4,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"Object12",
+  "name":"objToCastle",
   "overriddenProperties":[],
   "parent":{
     "name":"Objects",

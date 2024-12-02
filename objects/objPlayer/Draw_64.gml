@@ -5,7 +5,7 @@ draw_set_alpha(1);
 
 draw_text_drop(10, 4, $"People: {array_length(objPlayer.followers)}", 3);
 draw_set_color(c_lime);
-draw_text_drop(10, 38, $"Followers: {objPlayer.followerCount}", 3);
+draw_text_drop(10, 38, $"Followers: {global.followerCount}", 3);
 draw_set_color(c_red);
 draw_text_drop(10, 72, $"Detractors: {objPlayer.detractors}", 3);
 draw_set_color(c_aqua);

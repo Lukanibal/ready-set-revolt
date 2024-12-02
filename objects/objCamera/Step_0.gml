@@ -2,7 +2,7 @@
 if(keyboard_check_pressed(vk_control))
 {
     window_mouse_set_locked(!window_mouse_get_locked());
-    window_set_cursor( window_mouse_get_locked() ? cr_cross: cr_default);
+    window_set_cursor( window_mouse_get_locked() ? cr_none: cr_default);
 }
 
 if(window_mouse_get_locked())
