@@ -1,0 +1,3 @@
+C:/Users/lukan/GameMakerProjects/SpookyScaryGMCJAM/Build/build/CMakeFiles/SpookyScaryGMCJAM.dir
+C:/Users/lukan/GameMakerProjects/SpookyScaryGMCJAM/Build/build/CMakeFiles/edit_cache.dir
+C:/Users/lukan/GameMakerProjects/SpookyScaryGMCJAM/Build/build/CMakeFiles/rebuild_cache.dir
