@@ -11,6 +11,8 @@ if(window_mouse_get_locked())
     lookPitch += (window_mouse_get_delta_y()) / 10;  
 }
 
+lookPitch := clamp(lookPitch, -70, 70);
+
 var _ww, _wh;
 _ww := window_get_width();
 _wh := window_get_height();
