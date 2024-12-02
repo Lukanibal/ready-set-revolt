@@ -42,4 +42,3 @@ camera_set_view_mat(camera, matrix_build_lookat(_xfrom, _yfrom, _zfrom, _xto, _y
 camera_set_proj_mat(camera, matrix_build_projection_perspective_fov(-70, -(window_get_width()/window_get_height()), 1, 10000) );
 camera_apply(camera);
 
-mouse_ray := screen_to_world( window_mouse_get_x(), window_mouse_get_y(), camera_get_view_mat(camera), camera_get_proj_mat(camera));
