@@ -1,5 +1,5 @@
 {
-  "$GMOperaGXOptions":"",
+  "$GMOperaGXOptions":"v1",
   "%Name":"Opera GX",
   "name":"Opera GX",
   "option_operagx_display_cursor":true,
@@ -23,6 +23,7 @@
   "option_operagx_team_id":"971b0825-2e8b-45d7-8751-03a826eaa97a",
   "option_operagx_team_name":"Spellweaver Games",
   "option_operagx_texture_page":"2048x2048",
+  "option_operagx_transparent_background":false,
   "option_operagx_version":"1.0.0.2",
   "resourceType":"GMOperaGXOptions",
   "resourceVersion":"2.0",
